@@ -9,8 +9,6 @@
 - Organized code structure for easy maintenance and scalability
 
 This project is ideal for users or developers looking to understand weather data integration within a modern Flutter application, and for those interested in building scalable, cross-platform apps from a single codebase
-
-[1](https://github.com/salah-rafat80/Weather_App)
 ![IMG-20250826-WA0003](https://github.com/user-attachments/assets/0032dca0-6b12-4ccb-b7f8-da2ba7efac5e)
 ![IMG-20250826-WA0001](https://github.com/user-attachments/assets/d16abe3a-2217-419a-ad0e-5c3488a0afa8)
 ![IMG-20250826-WA0002](https://github.com/user-attachments/assets/172bb4cb-6285-4ef4-be97-882d564cdbe1)
