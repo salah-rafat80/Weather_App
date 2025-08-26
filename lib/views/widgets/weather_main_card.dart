@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/weather_model.dart';
+import 'package:waether_app/models/weather_model.dart';
 import 'weather_icon_widget.dart';
 
 class WeatherMainCard extends StatelessWidget {
@@ -63,8 +63,8 @@ class WeatherMainCard extends StatelessWidget {
               Text(
                 weather.cityName,
                 style: const TextStyle(
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w700,
                   color: Colors.white,
                   shadows: [
                     Shadow(

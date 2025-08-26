@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../controllers/weather_controller.dart';
-import '../widgets/search_bar_widget.dart';
-import '../widgets/weather_app_bar.dart';
-import '../widgets/weather_background.dart';
-import '../widgets/weather_content_manager.dart';
+import 'package:waether_app/controllers/weather_controller.dart';
+import 'package:waether_app/views/widgets/search_bar_widget.dart';
+import 'package:waether_app/views/widgets/weather_app_bar.dart';
+import 'package:waether_app/views/widgets/weather_background.dart';
+import 'package:waether_app/views/widgets/weather_content_manager.dart';
 
 class WeatherHomeView extends StatelessWidget {
   const WeatherHomeView({super.key});
@@ -30,7 +30,7 @@ class WeatherHomeView extends StatelessWidget {
                   children: [
                     const SizedBox(height: 20),
                     SearchBarWidget(weatherTheme: weatherTheme),
-                    const SizedBox(height: 30),
+                    // const SizedBox(height: 30),
                     WeatherContentManager(
                       controller: controller,
                       weatherTheme: weatherTheme,

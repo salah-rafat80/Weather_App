@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../controllers/weather_controller.dart';
-import '../models/weather_model.dart';
-import '../data/city_data.dart';
+import '/controllers/weather_controller.dart';
+import '/models/weather_model.dart';
+import '/data/city_data.dart';
 import 'search_field_widget.dart';
 import 'suggestions_list_widget.dart';
 import 'location_button_widget.dart';

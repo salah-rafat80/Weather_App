@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/weather_model.dart';
+import 'package:waether_app/models/weather_model.dart';
 
 class WeatherBackground extends StatelessWidget {
   final WeatherTheme? weatherTheme;

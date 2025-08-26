@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:waether_app/helper/location_service.dart';
+import 'package:waether_app/helper/weather_service.dart';
 import '../models/weather_model.dart';
-import '../services/weather_service.dart';
-import '../services/location_service.dart';
 
 class WeatherController extends ChangeNotifier {
   late final WeatherService _weatherService;
   late final LocationService _locationService;
-
   Weather? _currentWeather;
   bool _isLoading = false;
   String? _errorMessage;

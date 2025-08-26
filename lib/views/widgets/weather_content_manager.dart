@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../controllers/weather_controller.dart';
-import '../models/weather_model.dart';
+import '/controllers/weather_controller.dart';
+import '/models/weather_model.dart';
 import 'weather_card.dart';
 import 'weather_loading_widget.dart';
 import 'weather_error_widget.dart';
