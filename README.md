@@ -1,6 +1,6 @@
 # Weather App
 
-**Weather App**is a cross-platform application developed using Flutter, designed to provide users with up-to-date weather information. The project supports multiple platforms, including Android, iOS, web, and Windows. It features a clean codebase organized across folders for each platform and includes Dart.
+**Weather App** is a cross-platform application developed using Flutter, designed to provide users with up-to-date weather information. The project supports multiple platforms, including Android, iOS, web, and Windows. It features a clean codebase organized across folders for each platform and includes Dart.
 
 **Key Features:**
 - Real-time weather updates
