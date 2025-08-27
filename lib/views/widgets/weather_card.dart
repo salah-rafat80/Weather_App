@@ -16,7 +16,7 @@ class WeatherCard extends StatelessWidget {
       child: Column(
         children: [
           WeatherMainCard(weather: weather, theme: theme),
-          const SizedBox(height: 25),
+          const SizedBox(height: 20),
           WeatherDetailsCard(weather: weather, theme: theme),
         ],
       ),

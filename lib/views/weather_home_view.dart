@@ -19,8 +19,7 @@ class WeatherHomeView extends StatelessWidget {
           const Color(0xFF234059),
         ];
         return Scaffold(
-          backgroundColor: backgroundGradient[1],
-          appBar: WeatherAppBar(weatherTheme: weatherTheme),
+
           body: WeatherBackground(
             weatherTheme: weatherTheme,
             child: SafeArea(
@@ -28,6 +27,8 @@ class WeatherHomeView extends StatelessWidget {
                 physics: const BouncingScrollPhysics(),
                 child: Column(
                   children: [
+                    const SizedBox(height: 10,),
+                     MyAppBar(),
                     const SizedBox(height: 20),
                     SearchBarWidget(weatherTheme: weatherTheme),
                     // const SizedBox(height: 30),

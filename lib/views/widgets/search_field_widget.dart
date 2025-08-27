@@ -49,7 +49,7 @@ class SearchFieldWidget extends StatelessWidget {
               fontSize: 14,
             ),
             prefixIcon: _buildActionIcon(Icons.search, accentColor, onSearch),
-            suffixIcon: _buildActionIcon(Icons.my_location, primaryColor, onLocationPressed),
+            suffixIcon: _buildActionIcon(Icons.my_location, accentColor, onLocationPressed),
             border: InputBorder.none,
             contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
           ),

@@ -9,7 +9,7 @@ class WeatherLoadingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.5,
+      height: MediaQuery.of(context).size.height * 0.8,
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -54,7 +54,7 @@ class WeatherLoadingWidget extends StatelessWidget {
                 'Please wait...',
                 style: TextStyle(
                   color: Colors.white.withOpacity(0.8),
-                  fontSize: 12,
+                  fontSize: 14,
                 ),
               ),
             ),

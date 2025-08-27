@@ -4,7 +4,7 @@ class WeatherInfoItem extends StatelessWidget {
   final String label;
   final String value;
   final IconData icon;
-  final Color iconColor;
+  final Color iconColor=Colors.white;
   final Color backgroundColor;
 
   const WeatherInfoItem({
@@ -12,7 +12,7 @@ class WeatherInfoItem extends StatelessWidget {
     required this.label,
     required this.value,
     required this.icon,
-    required this.iconColor,
+    // required this.iconColor,
     required this.backgroundColor,
   });
 
@@ -51,13 +51,13 @@ class WeatherInfoItem extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
           ),
-          const SizedBox(height: 6),
+          const SizedBox(height: 4),
           Text(
             value,
             style: const TextStyle(
               color: Colors.white,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
+              fontSize: 16,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ],

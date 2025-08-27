@@ -5,7 +5,6 @@ import '/models/weather_model.dart';
 import '/data/city_data.dart';
 import 'search_field_widget.dart';
 import 'suggestions_list_widget.dart';
-import 'location_button_widget.dart';
 
 class SearchBarWidget extends StatefulWidget {
   final WeatherTheme? weatherTheme;
@@ -96,12 +95,6 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
             accentColor: accentColor,
             onCitySelected: _selectSuggestion,
           ),
-        const SizedBox(height: 15),
-        LocationButtonWidget(
-          weatherTheme: theme,
-          accentColor: accentColor,
-          onPressed: _getCurrentLocationWeather,
-        ),
       ],
     );
   }

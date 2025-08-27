@@ -16,7 +16,7 @@ class WeatherDetailsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(24),
+      padding: const EdgeInsets.all(15),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
@@ -40,7 +40,7 @@ class WeatherDetailsCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           _buildDetailsHeader(),
-          const SizedBox(height: 20),
+          const SizedBox(height: 10),
           Row(
             children: [
               Expanded(
@@ -48,7 +48,7 @@ class WeatherDetailsCard extends StatelessWidget {
                   label: 'Humidity',
                   value: weather.humidityString,
                   icon: Icons.water_drop,
-                  iconColor: theme.accentColor,
+
                   backgroundColor: theme.primaryColor,
                 ),
               ),
@@ -58,13 +58,13 @@ class WeatherDetailsCard extends StatelessWidget {
                   label: 'Wind',
                   value: weather.windSpeedString,
                   icon: Icons.air,
-                  iconColor: theme.accentColor.withOpacity(0.8),
+
                   backgroundColor: theme.primaryColor,
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 15),
+          const SizedBox(height: 10),
           Row(
             children: [
               Expanded(
@@ -72,7 +72,7 @@ class WeatherDetailsCard extends StatelessWidget {
                   label: 'Pressure',
                   value: weather.pressureString,
                   icon: Icons.compress,
-                  iconColor: theme.accentColor.withOpacity(0.6),
+
                   backgroundColor: theme.primaryColor,
                 ),
               ),
@@ -82,7 +82,7 @@ class WeatherDetailsCard extends StatelessWidget {
                   label: 'Feels Like',
                   value: weather.feelsLikeString,
                   icon: Icons.thermostat,
-                  iconColor: theme.accentColor.withOpacity(0.9),
+
                   backgroundColor: theme.primaryColor,
                 ),
               ),
@@ -92,17 +92,16 @@ class WeatherDetailsCard extends StatelessWidget {
       ),
     );
   }
-
   Widget _buildDetailsHeader() {
     return Row(
       children: [
-        Icon(Icons.info_outline, color: theme.accentColor, size: 24),
+        Icon(Icons.info_outline, color: Colors.white, size: 24),
         const SizedBox(width: 8),
         const Text(
           'Details',
           style: TextStyle(
             fontSize: 20,
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.w600,
             color: Colors.white,
           ),
         ),
