@@ -61,6 +61,7 @@ class WeatherTheme {
       case WeatherCondition.rain:
       case WeatherCondition.drizzle:
         return WeatherTheme(
+
           backgroundGradient: [Color(0xFF4169E1), Color(0xFF191970)],
           primaryColor: Color(0xFF4169E1),
           accentColor: Color(0xFF4FC3F7),
