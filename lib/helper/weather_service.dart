@@ -1,6 +1,5 @@
-import 'dart:convert';
 import 'dart:async';
-import 'dart:io';
+
 import 'package:dio/dio.dart';
 import '../models/weather_model.dart';
 
@@ -19,7 +18,8 @@ class WeatherService {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
       },
-    ));
+    )
+    );
 
     _dio.interceptors.add(LogInterceptor(
       requestBody: true,
